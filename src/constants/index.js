@@ -3,19 +3,19 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Início",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Recursos",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Planos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Contato",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Atendimento Rápido",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Nossa equipe chega até você em tempo recorde para minimizar o tempo de inatividade da sua empresa.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Técnicos Certificados",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Conte com profissionais qualificados que entendem a fundo de todas as marcas e modelos de impressoras.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Manutenção Preventiva",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Evite problemas futuros com nossos planos de manutenção que garantem a longevidade dos seus equipamentos.",
   },
 ];
 
@@ -47,9 +47,9 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "O serviço de manutenção preventiva salvou nossa produtividade! Não tivemos mais problemas com impressoras paradas.",
+    name: "João Silva",
+    title: "Gerente de TI",
     img: people01,
   },
   {
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Clientes Satisfeitos",
+    value: "340+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Empresas Atendidas",
+    value: "94+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Impressoras Reparadas",
+    value: "800+",
   },
 ];
 
