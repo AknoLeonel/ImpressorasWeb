@@ -8,12 +8,12 @@ const Testimonials = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        What People are <br className="sm:block hidden" /> saying about us
+        O que nossos clientes <br className="sm:block hidden" /> estão dizendo
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
+          Tudo o que você precisa para garantir a produtividade do seu negócio
+          com equipamentos de impressão sempre funcionando.
         </p>
       </div>
     </div>

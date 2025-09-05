@@ -55,17 +55,17 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Atendimento rápido e eficiente. O técnico resolveu o problema da nossa impressora em menos de uma hora. Recomendo!",
+    name: "Maria Oliveira",
+    title: "Diretora, ABC Contabilidade",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "São nosso parceiro de confiança para suprimentos e manutenção. A qualidade e o preço são imbatíveis.",
+    name: "Carlos Souza",
+    title: "Sócio, Advocacia Souza & Irmãos",
     img: people03,
   },
 ];
@@ -93,61 +93,53 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Serviços",
+        link: "#features",
       },
       {
-        name: "How it Works",
+        name: "Como Funciona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Planos",
+        link: "#product",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Guia",
+        link: "#clients",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Termos & Serviços",
+        link: "#",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidade",
     links: [
       {
-        name: "Help Center",
+        name: "Central de Ajuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Parceiros",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugestões",
         link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Parceiros",
     links: [
       {
-        name: "Our Partner",
+        name: "Nossos Parceiros",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Torne-se um Parceiro",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
