@@ -138,3 +138,19 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.whatsapp-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); /* Sombra branca */
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0); /* Sombra se expande e desaparece */
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
