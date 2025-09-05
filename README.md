@@ -1,12 +1,20 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+MI Impressoras - Website
+Este é o código-fonte do site da MI Impressoras, uma empresa especializada em manutenção de impressoras. O site foi desenvolvido para apresentar os serviços da empresa, como manutenção preventiva e corretiva, venda de suprimentos e planos de manutenção para empresas.
 
-![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
+Tecnologias Utilizadas
+React.js: Biblioteca JavaScript para a construção da interface de usuário.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+Vite: Ferramenta de build para um desenvolvimento frontend mais rápido.
 
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+Tailwind CSS: Framework CSS utility-first para estilização.
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+Sobre o Projeto
+O site da MI Impressoras é uma landing page moderna e responsiva que destaca os seguintes pontos:
+
+Serviços: Manutenção especializada, atendimento rápido e técnicos certificados.
+
+Produtos: Venda de toners, cartuchos e peças.
+
+Planos: Planos de manutenção para controle de custos.
+
+Contato: Botões de WhatsApp para solicitar serviços e orçamentos.
