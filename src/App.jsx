@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
-
+import WhatsappButton from "./components/WhatsappButton";
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -25,6 +25,7 @@ const App = () => (
         <Clients />
         <CTA />
         <Footer />
+        <WhatsappButton />
       </div>
     </div>
   </div>
