@@ -14,11 +14,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Controle facilmente seus custos <br className="sm:block hidden" /> com planos de manutenção.
+        Controle Facilmente seus Custos com Planos de <br className="sm:block hidden" />Manutenção de Impressoras.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Oferecemos planos de manutenção preventiva e corretiva que se adaptam à sua necessidade.
-        Tenha previsibilidade de gastos e garanta que seus equipamentos estejam sempre prontos para o trabalho.
+        Com planos flexíveis de manutenção preventiva e corretiva, você tem previsibilidade de gastos e a certeza de equipamentos sempre funcionando.
       </p>
     </div>
   </section>

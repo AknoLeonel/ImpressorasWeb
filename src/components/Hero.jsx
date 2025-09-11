@@ -28,7 +28,7 @@ const Hero = () => {
           Especializada.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Nossa equipe de técnicos certificados utiliza as melhores ferramentas para diagnosticar e resolver rapidamente qualquer problema, garantindo que suas impressoras funcionem com máxima eficiência.
+          Nossa equipe de técnicos certificados e ferramentas de ponta garantem diagnósticos precisos e soluções ágeis para a máxima performance de suas impressoras.
         </p>
       </div>
 

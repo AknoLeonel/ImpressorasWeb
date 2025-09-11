@@ -22,11 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Você foca no seu negócio, <br className="sm:block hidden" /> nós cuidamos das impressoras.
+        Sua produtividade garantida, suas <br className="sm:block hidden" /> impressoras sob nosso controle.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Com o plano de manutenção ideal, você melhora a produtividade da sua equipe,
-        reduz custos com equipamentos e evita paradas inesperadas. Deixe os especialistas cuidarem disso para você.
+        Evite surpresas e garanta a máxima performance dos seus equipamentos. Com nossos planos, sua empresa economiza e mantém o foco no que realmente importa.
       </p>
 
       <Button styles={`mt-10`} />
