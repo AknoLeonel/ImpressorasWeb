@@ -9,9 +9,10 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import WhatsappButton from "./WhatsappButton";
-import ScrollToTop from "./ScrollToTop"; // Caso tenha criado o utilitário que sugeri
+import ScrollToTop from "./ScrollToTop"; 
 
-// Novas páginas
+// As novas páginas que ficarão aqui dentro de components
+import Home from "./Home";
 import Diagnostico from "./Diagnostico";
 import TrocaToner from "./TrocaToner";
 import Marcas from "./Marcas";
@@ -30,6 +31,7 @@ export {
   Hero,
   WhatsappButton,
   ScrollToTop,
+  Home,
   Diagnostico,
   TrocaToner,
   Marcas,

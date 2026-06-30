@@ -1,27 +1,32 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import styles from "./style";
-import { Navbar, Footer } from "./components";
-import WhatsappButton from "./components/WhatsappButton";
-import ScrollToTop from './components/ScrollToTop'; // Adicionamos este utilitário
 
-// Importe suas páginas da pasta 'pages'
-import Home from './pages/Home';
-import Diagnostico from './pages/Diagnostico';
-import TrocaToner from './pages/TrocaToner';
-import Marcas from './pages/Marcas';
-import Contato from './pages/Contato';
+// Importando todos os componentes e páginas de uma vez só da pasta components
+import { 
+  Navbar, 
+  Footer, 
+  WhatsappButton, 
+  ScrollToTop, 
+  Home, 
+  Diagnostico, 
+  TrocaToner, 
+  Marcas, 
+  Contato 
+} from "./components";
 
 const App = () => (
   <BrowserRouter>
     <ScrollToTop /> {/* Garante que ao trocar de página, o scroll vai para o topo */}
     <div className="bg-primary w-full overflow-hidden">
       
+      {/* NAVBAR FIXA NO TOPO */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
+      {/* ROTAS: AQUI O CONTEÚDO MUDA CONFORME O LINK */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/diagnosticogratuito" element={<Diagnostico />} />
@@ -30,6 +35,7 @@ const App = () => (
         <Route path="/contato" element={<Contato />} />
       </Routes>
 
+      {/* FOOTER E WHATSAPP FIXOS NO RODAPÉ */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
