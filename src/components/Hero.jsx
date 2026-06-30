@@ -19,7 +19,8 @@ const Hero = () => {
             Manutenção <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Impressora</span>{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          {/* Adicionadas as classes flex, justify-center e items-center para garantir a centralização */}
+          <div className="ss:flex hidden md:mr-4 mr-0 flex justify-center items-center">
             <GetStarted />
           </div>
         </div>

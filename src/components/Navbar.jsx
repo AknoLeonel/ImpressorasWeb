@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom"; // IMPORTANTE: Importar o Link
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,7 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="MI Impressoras" className="w-[160px] h-[41px]" />
+      {/* Link para voltar a Home ao clicar na logo */}
+      <Link to="/">
+        <img src={logo} alt="MI Impressoras" className="w-[160px] h-[41px]" />
+      </Link>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -20,11 +23,13 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            {/* Usando Link em vez de <a href={`#${nav.id}`}> */}
+            <Link to={nav.id === "home" ? "/" : `/${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
 
+      {/* Menu Mobile */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
@@ -47,7 +52,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link to={nav.id === "home" ? "/" : `/${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>
